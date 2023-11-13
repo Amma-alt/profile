@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Roboto+Condensed&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+body {
+  background-color: rgb(254, 254, 254);
+  color: rgb(107, 122, 143);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: normal;
+}
+h1, h2{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+  font-size: 32px;
+  color: rgb(251, 195, 14);
+  font-weight: 900;
+}
+h2{
+  font-size: 24px;
+  color: rgb(107, 122, 143);
+  font-weight: 700;
+}
+.btn-yellow{
+  text-decoration: none;
+  background-color: rgb(251, 195, 14);
+  color: white;
+  font-weight: 800;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+.btn-yellow:hover{
+  background-color: rgb(250, 134, 27);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 16 rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+.text-center {
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+  }
+.shadow{
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1); 
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  width: 700px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 1 solid rgb(176, 176, 176);
+  margin: 20px 0;
+
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.margin-btn-down {
+  margin-bottom: 20px;
+}
